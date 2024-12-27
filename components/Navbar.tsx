@@ -18,8 +18,7 @@ const Navbar = () => {
             className='max-sm:size-10'/>
             <p className='text-[26px] font-extrabold text-white max-sm:hidden'>YOOM</p>
         </Link>
-        <div>
-            {/* clerk-managermernt */}
+        <div className='flex-between gap-5'>
             <SignedIn>
             <UserButton />
           </SignedIn>
